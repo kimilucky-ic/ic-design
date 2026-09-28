@@ -2,6 +2,8 @@
 
 A five-stage RV32I RISC-V CPU developed for learning, simulation, and FPGA experimentation.
 
+The project includes directed tests for arithmetic, branches, jumps, byte/halfword/word memory access, forwarding, load-use hazards, and UART output. On the 27 MHz Logos2 PG2L200H remote FPGA, a CoreMark run reported 1,000 iterations at 19 iterations/second and printed `Correct operation validated`; the displayed integer rate corresponds to approximately 0.70 CoreMark/MHz. This is an approximate result, and the archived serial transcript does not identify the programmed bitstream by hash, so it is not a hash-linked score for the packaged bitstream.
+
 ## Current status
 
 This repository is a release candidate for a five-stage RV32I CPU derived from Arjun P Shetty's MIT-licensed RISC-V_CPU project. See [the upstream and change record](docs/upstream-delta.md) and [LICENSE](LICENSE).
