@@ -1,0 +1,2 @@
+# 27 MHz board clock; 1/27e6 s = 37.037 ns
+create_clock -name fpga_clk -period 37.037 [get_ports {clk}]

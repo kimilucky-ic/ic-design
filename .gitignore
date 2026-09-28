@@ -1,0 +1,37 @@
+# ModelSim/Questa generated libraries and waveforms
+sim/work*/
+sim/**/work*/
+sim/**/work*/**
+sim/transcript
+sim/**/*.wlf
+sim/**/_info/
+sim/**/_info/**
+sim/**/*_lib*.qdb
+sim/**/*_lib*.qpg
+sim/**/*_lib*.qtl
+sim/**/*.qdb
+sim/**/*.qpg
+sim/**/*.qtl
+
+# FPGA implementation outputs and vendor-generated project state
+prj_tasks/
+design_workspace/
+logbackup/
+*.sbit
+!benchmarks/coremark/artifacts/fpga_top_coremark.sbit
+*.pds
+*.db
+*.dmr
+*.adf
+*.netlist
+*.pcf
+*.log
+
+# Local environment and editor state
+.claude/
+.vscode/
+.idea/
+.env
+.env.*
+Thumbs.db
+Desktop.ini
